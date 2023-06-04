@@ -6,6 +6,7 @@
     scroll-behavior: smooth;
     font-family: Montserrat, sans-serif;
 }
+
 body {
     /*position: relative;*/
     scroll-behavior: smooth;
@@ -385,6 +386,20 @@ footer  .copy hr{
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 768px) {
     .container {
       padding: 0 5%;
@@ -394,6 +409,30 @@ footer  .copy hr{
       position: relative;
       scroll-behavior: smooth;
     }
+     header .nav-bar2 .nav{
+        list-style: none;
+        display: block;
+    }
+ 
+    header .nav-bar2 ul{
+        display: block;
+        background-color: transparent;
+        left: -100px;
+        line-height: 50px;
+        text-align: center;
+        transition: .5s;
+    }
+    header .nav-bar2 .nav li a{
+        padding: 5px 10px;
+        cursor:pointer;
+        color: #fff;
+        transition: .3s;
+        text-decoration: none;
+    }
+    header .nav-bar2 .nav li:hover a:hover{
+        color: var(--blue);
+    }
+  
   
     .home {
       margin-top: 40px;
@@ -408,7 +447,7 @@ footer  .copy hr{
     }
   
     .home .imgbox {
-      width: 70%;
+      width: 50%;
       height: auto;
     }
   
@@ -457,6 +496,16 @@ footer  .copy hr{
       
     }
   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
   
   @media only screen and (max-width: 600px) {
     .home .content h1 {
