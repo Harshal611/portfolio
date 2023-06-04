@@ -475,6 +475,9 @@ footer  .copy hr{
     .field .box .content h2 {
       font-size: 1.5rem;
     }
+    .field .box .content h3{
+        font-size: 0.5rem;
+    }
   
     .field .box .content p {
       font-size: 1rem;
